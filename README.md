@@ -34,14 +34,14 @@ Before diving into customer segments, we must understand the overall business he
 
 However, the revenue has been on a consistent downward slope ever since, hitting its lowest point in **October 2021** (Rp 84,266 from 80 orders). This indicates that early-year customer acquisition failed to translate into long-term retention. The business is losing its customers.
 
-![Monthly Revenue Trend](images/viz_1.png)
+![Monthly Revenue Trend](Images/viz_1.png)
 
 ### 2. The Solution: RFM Segmentation
 To reverse this decline, we cannot treat all customers equally. I applied **RFM (Recency, Frequency, Monetary)** analysis to segment the customer base. 
 
 The visualization below reveals the distinct clusters of our customers. The data shows a shocking reality: **58.1% of customers are one-time buyers**. However, the loyal repeat buyers (the green/top-tier clusters in the chart) are the true revenue engine. A tiny segment of highly loyal customers (purchasing ≥ 4 times, making up only 3.1% of the base) contributed a massive **8.4% of total revenue**. 
 
-![RFM Segmentation](images/viz_6.png)
+![RFM Segmentation](Images/viz_6.png)
 *Insight: Marketing budgets must pivot from pure acquisition to targeted retention campaigns for these high-RFM segments.*
 
 ### 3. Operational Insight: Product Dominance
@@ -49,7 +49,7 @@ Beyond customer behavior, inventory strategy plays a crucial role. The product p
 
 On the opposite end, the **Mandarin Collar (236 units)** and **Dress (243 units)** are severely underperforming. 
 
-![Product Performance](images/viz_2.png)
+![Product Performance](Images/viz_2.png)
 *Actionable Recommendation: Reallocate production and marketing budgets. Capitalize on Denim's popularity through cross-selling, while re-evaluating or discounting the Mandarin Collar line.*
 
 ## 💡 Business Recommendations
