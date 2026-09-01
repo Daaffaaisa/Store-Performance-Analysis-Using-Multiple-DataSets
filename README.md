@@ -27,23 +27,30 @@ To identify the most valuable segments, I applied **RFM Analysis**:
 - **Frequency:** How often do they purchase?
 - **Monetary:** How much do they spend?
 
-## 📊 Key Insights
+## 📊 Key Insights & Visualizations
 
-### 1. Repeat Buyers are the Revenue Engine
-While 58.1% of customers only transacted once, **repeat buyers generated 63.3% of total revenue**. The top-tier loyal segment (frequency ≥ 4) made up only 3.1% of the customer base but contributed an oversized 8.4% of total revenue. 
-*(Retention is far more cost-efficient than pure acquisition).*
+### 1. The Burning Problem: Declining Monthly Revenue
+Before diving into customer segments, we must understand the overall business health. As shown in the trend line below, the business experienced strong momentum early in the year, peaking in **March 2021** (Rp 131,364 from 117 orders). 
 
-### 2. Revenue Trend & The Danger of Averages
-Monthly revenue peaked in March (Rp 131,364) and steadily weakened to its lowest point in October (Rp 84,266). Without a targeted retention mechanism, early-year acquisition momentum naturally deflates.
+However, the revenue has been on a consistent downward slope ever since, hitting its lowest point in **October 2021** (Rp 84,266 from 80 orders). This indicates that early-year customer acquisition failed to translate into long-term retention. The business is losing its customers.
 
-![Monthly Revenue Trend]([MASUKKAN_LINK_GAMBAR_VIZ_1_DARI_GITHUB_DISINI])
-*(Example: `images/viz_1.png`)*
+![Monthly Revenue Trend](images/viz_1.png)
 
-### 3. Product Performance: Denim Dominates
-Denim sold 527 units—nearly double the second-best product (Joggers, 334 units). Conversely, Mandarin Collar and Dress lines underperformed, signaling a need for strategic inventory evaluation.
+### 2. The Solution: RFM Segmentation
+To reverse this decline, we cannot treat all customers equally. I applied **RFM (Recency, Frequency, Monetary)** analysis to segment the customer base. 
 
-![Top Products]([MASUKKAN_LINK_GAMBAR_VIZ_2_DARI_GITHUB_DISINI])
-*(Example: `images/viz_2.png`)*
+The visualization below reveals the distinct clusters of our customers. The data shows a shocking reality: **58.1% of customers are one-time buyers**. However, the loyal repeat buyers (the green/top-tier clusters in the chart) are the true revenue engine. A tiny segment of highly loyal customers (purchasing ≥ 4 times, making up only 3.1% of the base) contributed a massive **8.4% of total revenue**. 
+
+![RFM Segmentation](images/viz_6.png)
+*Insight: Marketing budgets must pivot from pure acquisition to targeted retention campaigns for these high-RFM segments.*
+
+### 3. Operational Insight: Product Dominance
+Beyond customer behavior, inventory strategy plays a crucial role. The product performance chart highlights a massive gap in category appeal. **Denim** is the absolute market leader with **527 units sold** (nearly double the runner-up, Joggers). 
+
+On the opposite end, the **Mandarin Collar (236 units)** and **Dress (243 units)** are severely underperforming. 
+
+![Product Performance](images/viz_2.png)
+*Actionable Recommendation: Reallocate production and marketing budgets. Capitalize on Denim's popularity through cross-selling, while re-evaluating or discounting the Mandarin Collar line.*
 
 ## 💡 Business Recommendations
 1. **Targeted Retention:** Shift marketing budgets (email re-engagement, loyalty points) toward top-RFM customers rather than spreading it evenly.
