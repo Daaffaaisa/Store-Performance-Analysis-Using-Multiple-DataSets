@@ -13,6 +13,7 @@ An Australian e-commerce fashion business was experiencing a steady decline in m
 
 The core objective of this project was to segment the customer base to separate **highly valuable, loyal repeat buyers** from one-time shoppers, preventing retention budgets from being spread inefficiently across the wrong segments.
 </div>
+
 ## 🗂️ Data Overview & Preparation
 The raw data consisted of 993 orders from 616 unique customers across Jan–Oct 2021, scattered across 4 tables (`customers`, `orders`, `products`, `sales`).
 
